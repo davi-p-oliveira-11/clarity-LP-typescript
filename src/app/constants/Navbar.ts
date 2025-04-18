@@ -3,12 +3,12 @@ import { NavbarData } from "../types/NavbarDataTypes";
 export const navbarData: NavbarData = {
   logo: {
     src: "/images/assets/logo.svg",
-    alt: "FieldGuide Logo",
+    alt: "ClarityLogo",
   },
   links: [
-    { label: "Products", href: "#products" },
-    { label: "Solutions", href: "#solutions" },
-    { label: "Pricing", href: "#pricing" },
-    { label: "Contact", href: "#contact" },
+    { label: "Documentation", href: "#documentation" },
+    { label: "Showcase", href: "#showcase" },
+    { label: "Resources", href: "#resources" },
+    { label: "Blog", href: "#blog" },
   ],
 };
