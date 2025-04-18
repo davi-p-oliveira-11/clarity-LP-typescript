@@ -5,7 +5,7 @@ import VideoPlayer from "../components/VideoPlayer";
 
 export default function Hero() {
   return (
-    <section className="w-full px-4 py-16 md:py-24 flex flex-col items-center text-center">
+    <section className="bg-purple-background w-full px-4 py-16 md:py-24 flex flex-col items-center text-center">
       <div className="bg-muted px-4 py-1.5 rounded-full text-sm font-medium mb-6">
         Empowering Audit Professionals
       </div>
@@ -21,25 +21,6 @@ export default function Hero() {
       </p>
 
       <Button />
-
-      <Image
-        src="/images/assets/years.svg"
-        alt="Hero illustration"
-        width={238}
-        height={51}
-        className="mt-6"
-      />
-
-      <h4 className="text-xl font-semibold mb-2">
-        Trusted by Industry Leaders
-      </h4>
-
-      <p className="text-muted-foreground max-w-xl mb-8">
-        Join thousands of professionals who rely on FieldGuide to transform
-        their audit process.
-      </p>
-
-      <VideoPlayer />
     </section>
   );
 }
