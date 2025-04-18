@@ -3,7 +3,10 @@
 @theme {
   --color-*: initial;
 
-  --color-green-primary: #36853a;
+  --color-black-background: #0e1116;
+  --color-purple-background: #171733;
+
+  --color-purple-primary: #491fcb;
   --color-blue-background: #1a232d;
 
   --color-gray-white: #dadada;
