@@ -2,12 +2,13 @@ import React from "react";
 
 interface ButtonProps {
   text?: string;
+  className?: string;
 }
 
-export default function Button(props: ButtonProps) {
+export default function Button({ text = "Send", className = "" }: ButtonProps) {
   return (
-    <button className="bg-green-primary px-5 py-2 rounded-sm">
-      {props.text || "Send"}
+    <button className={`bg-white text-[#491FCB] px-8 py-2 rounded-full text-sm md:text-base font-medium whitespace-nowrap ${className}`}>
+      {text}
     </button>
   );
 }
