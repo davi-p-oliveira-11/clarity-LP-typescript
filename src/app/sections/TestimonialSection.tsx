@@ -1,7 +1,6 @@
 import React from "react";
 import { logos } from "../constants/LogoCarousel";
 import TestimonialCard from "../components/TestimonialCard";
-import DataCard from "../components/DataCard";
 
 export default function TestimonialSection() {
   return (
@@ -24,7 +23,6 @@ export default function TestimonialSection() {
 
       <div className="flex flex-col lg:flex-row items-center lg:items-stretch gap-8 text-left">
         <TestimonialCard />
-        <DataCard />
       </div>
     </section>
   );
